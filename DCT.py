@@ -17,8 +17,7 @@ def compute_dct(density_array, dct_type=2, norm='ortho'):
     if density_array.ndim != 1:
         raise ValueError("輸入必須是一維陣列")
     
-    return dct(density_array, type=dct_
-               type, norm=norm)
+    return dct(density_array, type=dct_type, norm=norm)
 
 # 範例密度變化資料
 density = np.array([0.1, 0.3, 0.5, 0.4, 0.2, 0.1, 0.0])
