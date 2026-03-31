@@ -10,8 +10,8 @@ This project focuses on human identification using LiDAR data. The classificatio
 
 -----------------------------------------------------------------
 Environment Setup
---- python -m venv venv
---- pip install -r requirements.txt
+- python -m venv venv
+- pip install -r requirements.txt
 
 
 
